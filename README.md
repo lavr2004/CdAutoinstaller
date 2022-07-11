@@ -23,6 +23,8 @@ Is an application to that get every URL to setup and make an output *.cdp projec
 - if not found: mark current **sourceurlStr** as a new one URL never installed
 - return: boolean result of result and reference to original URL already installed
 
+![alt text](https://github.com/lavr2004/CdAutoinstaller/blob/main/sdlc/001_diagrams/002_module01_DoublicatesIdentifier.png?raw=true)
+
 ### Workflow of main functionality module: **module02_InstallerByTemplate**
 - get **sourceurlStr** need to be installed from external Actor
 - checking presented **sourceurlStr** by list of patterns to get identify what parser template can be used for installation
