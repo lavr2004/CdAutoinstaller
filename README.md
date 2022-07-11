@@ -10,7 +10,8 @@ Is an application to that get every URL to setup and make an output *.cdp projec
 - **module01_DoublicatesIdentifier** - provides indexation of **sourceurlStr** and identification if it new URL for current pool of installed URLs
 - **module02_InstallerByTemplate** - provides installation every **sourceurlStr** using x.cdp template if module01_DoublicatesIdentifier identified target **sourceurlStr** as a new one
 ---
-## Workflows of modules
+## Workflow of every module
+ 
 ### Workflow of main functionality module: **module01_DoublicatesIdentifier**
 - getting **sourceurlStr** from external actor
 - indexing **sourceurlStr** using table of patterns creating **sourceurlindexStr**
