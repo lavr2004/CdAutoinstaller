@@ -7,7 +7,7 @@ Is an application to that get every URL to setup and make an output *.cdp projec
 - **sourceurlindexStr** - artefact constructed from **sourceurlStr** using special patterns table
 
 ## Main functionality modules
-- **module01_DoublicatesIdentifier** - provides indexation of **sourceurlStr** and identification if it new URL for current pool of installed URLs
+- **module01_DoublicatesIdentifier** - provides indexation of **sourceurlStr** and identification if it new URL for current pool of installed URLs or this URL already installed
 - **module02_InstallerByTemplate** - provides installation every **sourceurlStr** using x.cdp template if module01_DoublicatesIdentifier identified target **sourceurlStr** as a new one
 ---
 ## Workflow of every module
