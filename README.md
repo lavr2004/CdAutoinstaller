@@ -11,6 +11,8 @@ Is an application to that get every URL to setup and make an output *.cdp projec
 - **module02_InstallerByTemplate** - provides installation every **sourceurlStr** using x.cdp template if module01_DoublicatesIdentifier identified target **sourceurlStr** as a new one
 ---
 ## Workflow of every module
+
+![alt text](https://github.com/lavr2004/CdAutoinstaller/blob/main/sdlc/001_diagrams/001_ApplicationWorkflow.png?raw=true)
  
 ### Workflow of main functionality module: **module01_DoublicatesIdentifier**
 - getting **sourceurlStr** from external actor
@@ -20,8 +22,6 @@ Is an application to that get every URL to setup and make an output *.cdp projec
 - if found: mark current **sourceurlStr** as a doublicate and already installed URL. Save reference to original URL already installed for reporting
 - if not found: mark current **sourceurlStr** as a new one URL never installed
 - return: boolean result of result and reference to original URL already installed
-
-![alt text](https://gc.onliner.by/images/logo/onliner_logo.v3.png)
 
 ### Workflow of main functionality module: **module02_InstallerByTemplate**
 - get **sourceurlStr** need to be installed from external Actor
