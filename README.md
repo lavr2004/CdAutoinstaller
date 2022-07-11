@@ -28,7 +28,7 @@ Is an application to that get every URL to setup and make an output *.cdp projec
   - if found pattern inside URL: ***make installation of current URL into one of templates referenced to pattern***
   - if not found pattern inside URL: go to identification template by page content
     - make request URL from HOST using headless browser
-    - execute JavaScript to collect all <iframes> from page together
+    - execute JavaScript to collect all < iframes > from page together
     - searching specific text pattern on the page content
     - if found pattern: ***make installation of current URL into one of templates referenced to pattern***
     - if not found pattern: make installation of current URL into general .cdp template
