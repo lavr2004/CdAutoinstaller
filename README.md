@@ -1,6 +1,6 @@
 # CdAutoinstaller
 
-Is an application to that get every URL to setup and make an output *.cdp project as a result
+Is an application to that get every URL to setup and make an output *.cdp project as a positive result of job or make nothing as negative result of job
 
 ## Vocabulary
 - **sourceurlStr** - input external URL string that need to be installed on CD parser after dedublication and indexing
