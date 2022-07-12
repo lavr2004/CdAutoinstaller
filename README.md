@@ -37,5 +37,6 @@ Is an application to that get every URL to setup and make an output *.cdp projec
     - if not found pattern: make installation of current URL into general .cdp template
 - return: boolean result of operations runtime
 
+![alt text](https://github.com/lavr2004/CdAutoinstaller/blob/main/sdlc/001_diagrams/003_module02_InstallerByTemplate.png?raw=true)
 
 <!---markdown completed using https://dillinger.io/ web application -->
